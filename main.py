@@ -1,4 +1,5 @@
 import random
+import sys
 from pathlib import Path
 
 import pygame
@@ -227,7 +228,6 @@ while running:
                 shooting = False
                 if shot_success:
                     score += 1
-                    tentativas = MAX_TENTATIVAS
                     current_sprite = sprite_acertou
                     current_cesta = cesta_com_bola
                     result_message = "Acertou!"
@@ -266,13 +266,17 @@ while running:
     # Bola só aparece em arremessos ou na mensagem de acerto
 
     if shooting:
+        # durante a animação sempre desenha a bola
         p0 = ball_start_pos()
         p1 = ball_target
         pos = arc_point(p0, p1, min(shoot_t, 1.0))
-        screen.blit(bola_img, (pos.x - bola_img.get_width()/2, pos.y - bola_img.get_height()/2))
-    elif (message_timer > 0) and (result_message == "Acertou!"):
-        p_end = ball_end_pos()
-        screen.blit(bola_img, (p_end.x - bola_img.get_width()/2, p_end.y - bola_img.get_height()/2))
+        screen.blit(bola_img, (pos.x - bola_img.get_width() / 2, pos.y - bola_img.get_height() / 2))
+
+    elif (message_timer > 0):
+        # Só mostra bola parada se for erro
+        if result_message == "Errou!":
+            p_end = ball_target
+            screen.blit(bola_img, (p_end.x - bola_img.get_width() / 2, p_end.y - bola_img.get_height() / 2))
 
     if state == "PLAY":
         draw_bar()
