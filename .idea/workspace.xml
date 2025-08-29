@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e0b7bf-ed58-4aad-9a34-a66999deb345" name="Changes" comment="Primeira versão finalizada.">
-      <change afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/Sprite_Arremecando.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/Sprite_acertou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/Sprite_idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/bola.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/cenario.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/cesta_com_bola.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/cesta_vazia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
+    <list default="true" id="99e0b7bf-ed58-4aad-9a34-a66999deb345" name="Changes" comment="Segunda versao com alguns bugs arrumados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -106,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756479449597</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Segunda versao com alguns bugs arrumados">
+      <option name="closed" value="true" />
+      <created>1756499662235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756499662235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeira versão finalizada." />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeira versão finalizada." />
+    <MESSAGE value="Segunda versao com alguns bugs arrumados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda versao com alguns bugs arrumados" />
   </component>
 </project>

@@ -39,8 +39,13 @@ ARC_HEIGHT = 160
 # Pastas e carregamento
 # -----------------------------
 
-BASE_DIR = Path(__file__).parent
+if getattr(sys, 'frozen', False):
+    BASE_DIR = Path(sys.executable).parent
+else:
+    BASE_DIR = Path(__file__).parent
+
 IMG_DIR = BASE_DIR / "assets" / "images"
+
 
 def load_img_scaled(name, scale=None, size=None):
     path = IMG_DIR / name
