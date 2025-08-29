@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e0b7bf-ed58-4aad-9a34-a66999deb345" name="Changes" comment="Segunda versao com alguns bugs arrumados">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="99e0b7bf-ed58-4aad-9a34-a66999deb345" name="Changes" comment="Terceira versao com alguns bugs de compilação arrumados" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756499662235</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Terceira versao com alguns bugs de compilação arrumados">
+      <option name="closed" value="true" />
+      <created>1756500466846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756500466846</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeira versão finalizada." />
     <MESSAGE value="Segunda versao com alguns bugs arrumados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda versao com alguns bugs arrumados" />
+    <MESSAGE value="Terceira versao com alguns bugs de compilação arrumados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terceira versao com alguns bugs de compilação arrumados" />
   </component>
 </project>
