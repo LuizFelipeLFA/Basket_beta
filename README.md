@@ -33,5 +33,3 @@ O objetivo é acertar a cesta controlando o arremesso por meio de uma barra de f
 - **PyInstaller** (empacotamento do jogo em executável)  
 
 ---
-   git clone https://github.com/SEU-USUARIO/basket-beta.git
-   cd basket-beta
